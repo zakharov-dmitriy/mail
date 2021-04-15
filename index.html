@@ -6,7 +6,7 @@
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
    <title>HTML Template</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <style>
+   <style type="text/css">
       body {
          width: 100% !important;
          -webkit-text-size-adjust: 100%;
@@ -65,14 +65,55 @@
       .art {
          padding-top: 26px;
          padding-right: 40px;
-         padding-bottom: 26px;
+         padding-bottom: 5px;
          padding-left: 40px;
          color: #ffffff;
+      }
+
+      .benefits {
+         padding-top: 32px;
+         padding-right: 40px;
+         padding-left: 40px;
+         padding-bottom: 32px;
       }
 
       @media (max-width: 620px) {
          .table-600 {
             width: 280px !important;
+         }
+
+         .table-490 {
+            width: 245px !important;
+         }
+
+         .intro-img {
+            width: 280px !important;
+            height: 300px !important;
+         }
+
+         .art-img {
+            width: 244px !important;
+            height: 84px !important;
+         }
+
+         .art {
+            padding-right: 18px;
+            padding-left: 18px;
+         }
+
+         .benefits {
+            padding-right: 18px;
+            padding-left: 18px;
+         }
+
+         .benefits td {
+            display: block !important;
+            padding-right: 0 !important;
+         }
+
+         .cell {
+            width: 100% !important;
+            margin-bottom: 20px;
          }
       }
    </style>
@@ -88,9 +129,8 @@
             <table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600" bgcolor="#000000">
                <tr>
                   <td class="logo" align="center">
-                     <img
-                        src="https://raw.githubusercontent.com/zakharov-dmitriy/mail/2957d7760b166cf469e7d3dc60de45d2320f25c6/images/logo.svg"
-                        width="188" alt="logo">
+                     <img src="https://github.com/zakharov-dmitriy/mail/blob/main/images/logo.png?raw=true" width="188"
+                        alt="logo" />
                   </td>
                </tr>
             </table>
@@ -101,8 +141,9 @@
             <table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600" bgcolor="#fff">
                <tr>
                   <td>
-                     <img src="https://github.com/zakharov-dmitriy/mail/blob/main/images/intro.jpg?raw=true"
-                        alt="intro-image">
+                     <img class="intro-img"
+                        src="https://github.com/zakharov-dmitriy/mail/blob/main/images/intro.jpg?raw=true"
+                        alt="intro-image" />
                   </td>
                </tr>
             </table>
@@ -115,7 +156,7 @@
                   <td style="padding-top: 32px; padding-bottom: 32px; padding-left: 40px; padding-right: 40px;">
                      <h2 class="title" style="font-family: Arial, 'Open Sans'; color: #515151">Торжество импрессионизма
                      </h2>
-                     <p style="font-family: Arial, 'Open Sans';">
+                     <p style="font-family: Arial, 'Open Sans'; margin-top: 0; margin-bottom: 0px">
                         Опыт говорит нам, что семантический разбор внешних противодействий требует анализа новых
                         принципов
                         формирования
@@ -139,13 +180,14 @@
                <tr>
                   <td class="art">
                      <h3
-                        style="font-family: Arial, 'Open Sans'; font-size: 16px; line-height: 24px; margin-top: 0; margin-bottom: 21px;">
+                        style="font-family: Arial, 'Open Sans'; font-weight: 400; font-size: 16px; line-height: 24px; margin-top: 0; margin-bottom: 21px;">
                         Представленные художники
                      </h3>
-                     <img src="https://github.com/zakharov-dmitriy/mail/blob/main/images/art-01.jpg?raw=true"
-                        width="520" height="180" style="margin-bottom: 21px;" alt="art-image">
+                     <img class="art-img"
+                        src="https://github.com/zakharov-dmitriy/mail/blob/main/images/art-01.jpg?raw=true" width="520"
+                        height="180" style="margin-bottom: 21px;" alt="art-image" />
                      <h5
-                        style="font-family: Arial, 'Open Sans'; font-size: 12px; line-height: 24px; margin-top: 0; margin-bottom: 5px;">
+                        style="font-family: Arial, 'Open Sans'; font-weight: 700; font-size: 12px; line-height: 24px; margin-top: 0; margin-bottom: 5px;">
                         Поль Гоген
                      </h5>
                      <p
@@ -154,10 +196,11 @@
                         обусловливает важность
                         укрепления моральных ценностей.
                      </p>
-                     <img src="https://github.com/zakharov-dmitriy/mail/blob/main/images/art-02.jpg?raw=true"
-                        width="520" height="180" style="margin-bottom: 21px;" alt="art-image">
+                     <img class="art-img"
+                        src="https://github.com/zakharov-dmitriy/mail/blob/main/images/art-02.jpg?raw=true" width="520"
+                        height="180" style="margin-bottom: 21px;" alt="art-image" />
                      <h5
-                        style="font-family: Arial, 'Open Sans'; font-size: 12px; line-height: 24px; margin-top: 0; margin-bottom: 5px;">
+                        style="font-family: Arial, 'Open Sans'; font-weight: 700; font-size: 12px; line-height: 24px; margin-top: 0; margin-bottom: 5px;">
                         Огюст Ренуар
                      </h5>
                      <p
@@ -165,30 +208,33 @@
                         А также сделанные на базе интернет-аналитики выводы освещают чрезвычайно интересные особенности
                         картины в целом.
                      </p>
-                     <img src="https://github.com/zakharov-dmitriy/mail/blob/main/images/art-03.jpg?raw=true"
-                        width="520" height="180" style="margin-bottom: 21px;" alt="art-image">
+                     <img class="art-img"
+                        src="https://github.com/zakharov-dmitriy/mail/blob/main/images/art-03.jpg?raw=true" width="520"
+                        height="180" style="margin-bottom: 21px;" alt="art-image" />
                      <h5
-                        style="font-family: Arial, 'Open Sans'; font-size: 12px; line-height: 24px; margin-top: 0; margin-bottom: 5px;">
+                        style="font-family: Arial, 'Open Sans'; font-weight: 700; font-size: 12px; line-height: 24px; margin-top: 0; margin-bottom: 5px;">
                         Клод Мане
                      </h5>
                      <p
                         style="font-family: Arial, 'Open Sans'; font-size: 12px; line-height: 18px; margin-top: 0; margin-bottom: 21px;">
                         Современная методология разработки однозначно фиксирует необходимость системы массового участия.
                      </p>
-                     <img src="https://github.com/zakharov-dmitriy/mail/blob/main/images/art-04.jpg?raw=true"
-                        width="520" height="180" style="margin-bottom: 21px;" alt="art-image">
+                     <img class="art-img"
+                        src="https://github.com/zakharov-dmitriy/mail/blob/main/images/art-04.jpg?raw=true" width="520"
+                        height="180" style="margin-bottom: 21px;" alt="art-image" />
                      <h5
-                        style="font-family: Arial, 'Open Sans'; font-size: 12px; line-height: 24px; margin-top: 0; margin-bottom: 5px;">
+                        style="font-family: Arial, 'Open Sans'; font-weight: 700; font-size: 12px; line-height: 24px; margin-top: 0; margin-bottom: 5px;">
                         Эдуард Мане
                      </h5>
                      <p
                         style="font-family: Arial, 'Open Sans'; font-size: 12px; line-height: 18px; margin-top: 0; margin-bottom: 21px;">
                         Но социально-экономическое развитие является качественно новой ступенью вывода текущих активов.
                      </p>
-                     <img src="https://github.com/zakharov-dmitriy/mail/blob/main/images/art-05.jpg?raw=true"
-                        width="520" height="180" style="margin-bottom: 21px;" alt="art-image">
+                     <img class="art-img"
+                        src="https://github.com/zakharov-dmitriy/mail/blob/main/images/art-05.jpg?raw=true" width="520"
+                        height="180" style="margin-bottom: 21px;" alt="art-image" />
                      <h5
-                        style="font-family: Arial, 'Open Sans'; font-size: 12px; line-height: 24px; margin-top: 0; margin-bottom: 5px;">
+                        style="font-family: Arial, 'Open Sans'; font-weight: 700; font-size: 12px; line-height: 24px; margin-top: 0; margin-bottom: 5px;">
                         Винсент Ван Гог
                      </h5>
                      <p
@@ -206,10 +252,51 @@
          <td>
             <table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff">
                <tr>
-                  <td>
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur saepe expedita voluptas iusto
-                     soluta eligendi doloremque, eveniet temporibus voluptatibus earum labore veritatis velit nam facere
-                     officia doloribus illum, possimus debitis.
+                  <td class="benefits">
+                     <h6
+                        style="font-family: Arial, 'Open Sans'; font-weight: 400; font-size: 16px; line-height: 24px; margin-top: 0; margin-bottom: 11px; color: #515151">
+                        И это еще не все!
+                     </h6>
+                     <table class="table-490" cellpadding="0" cellspacing="0" width="490" bgcolor="#ffffff" border="0"
+                        style="margin-bottom: 34px;">
+                        <tr valign="top">
+                           <td width="140" class="cell" style="padding-right: 27px;">
+                              <img src="https://github.com/zakharov-dmitriy/mail/blob/main/images/icon-01.png?raw=true"
+                                 alt="icon" width="36" height="36" />
+                              <p
+                                 style="margin-top: 11px; margin-bottom: 0; font-size: 12px; font-family: Arial, 'Open Sans'; font-weight: 400; line-height: 18px; color: #515151">
+                                 Уникальные подборки работ с авторскими рецензиями
+                              </p>
+                           </td>
+                           <td width="140" class="cell" style="padding-right: 27px;">
+                              <img src="https://github.com/zakharov-dmitriy/mail/blob/main/images/icon-02.png?raw=true"
+                                 alt="icon" width="36" height="36" />
+                              <p
+                                 style="margin-top: 11px; margin-bottom: 0; font-size: 12px; font-family: Arial, 'Open Sans'; font-weight: 400; line-height: 18px; color: #515151">
+                                 Возможность настроить нашу рассылку под свой личный вкус
+                              </p>
+                           </td>
+                           <td width="140" class="cell">
+                              <img src="https://github.com/zakharov-dmitriy/mail/blob/main/images/icon-03.png?raw=true"
+                                 alt="icon" width="36" height="36" />
+                              <p
+                                 style="margin-top: 11px; margin-bottom: 0; font-size: 12px; font-family: Arial, 'Open Sans'; font-weight: 400; line-height: 18px; color: #515151">
+                                 У вас есть пожелания и предложения?
+                                 Напишите нам в ответ на это письмо!
+                              </p>
+                           </td>
+                        </tr>
+                     </table>
+                     <table class="table-490" align="center" cellpadding="0" cellspacing="0" width="490">
+                        <tr>
+                           <td align="center">
+                              <a class="btn" href="#"
+                                 style="display: table-cell; padding-top: 17px; padding-bottom: 17px; padding-right: 35px; padding-left: 35px; font-size: 14px; font-family: Arial, 'Open Sans'; font-weight: 700; color: #ffffff; background-color: #9d5cd0; border-radius: 48px; text-decoration: none;">Узнать
+                                 все подробности
+                              </a>
+                           </td>
+                        </tr>
+                     </table>
                   </td>
                </tr>
             </table>
@@ -219,10 +306,56 @@
          <td>
             <table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600" bgcolor="#000000">
                <tr>
+                  <td style="padding-top: 27px;">
+                     <table class="table-143" align="center" cellpadding="0" cellspacing="0" width="143"
+                        bgcolor="#000000">
+                        <tr align="center">
+                           <td>
+                              <a href="#">
+                                 <img
+                                    src="https://github.com/zakharov-dmitriy/mail/blob/main/images/social-01.png?raw=true"
+                                    alt="vk.com" />
+                              </a>
+                           </td>
+                           <td>
+                              <a href="#">
+                                 <img
+                                    src="https://github.com/zakharov-dmitriy/mail/blob/main/images/social-02.png?raw=true"
+                                    alt="instagram.com" />
+                              </a>
+                           </td>
+                           <td>
+                              <a href="#">
+                                 <img
+                                    src="https://github.com/zakharov-dmitriy/mail/blob/main/images/social-03.png?raw=true"
+                                    alt="fb.com" />
+                              </a>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <tr align="center">
                   <td>
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur saepe expedita voluptas iusto
-                     soluta eligendi doloremque, eveniet temporibus voluptatibus earum labore veritatis velit nam facere
-                     officia doloribus illum, possimus debitis.
+                     <p style="font-size: 14px; font-family: Arial, 'Open Sans'; font-size: 12px; color: #757575;">
+                        Blanchard © 2020 / Все права защищены
+                     </p>
+                  </td>
+               </tr>
+            </table>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <table class="table-600" align="center" cellpadding="0" cellspacing="0" width="600" bgcolor="#EBEBEB">
+               <tr>
+                  <td
+                     style="text-align: center; font-family: Arial, 'Open Sans'; font-weight: 400; font-size: 10px; line-height: 24px; color: #757575;">
+                     Вы можете так же
+                     <a href="#"
+                        style="font-family: Arial, 'Open Sans'; font-weight: 400; font-size: 10px; line-height: 24px; margin-top: 0; margin-bottom: 11px; color: #9D5CD0;">
+                        отписаться от рассылки
+                     </a>
                   </td>
                </tr>
             </table>
